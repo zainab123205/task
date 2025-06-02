@@ -1,0 +1,198 @@
+
+.heading1{
+    color: brown;
+    
+    font-weight: 700;
+    
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* .linebreak{
+    margin-left: 190px;
+    
+} */
+.nav-item a:hover{
+    background-color: gray;
+    color: white;
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+        font-size: 18px;}
+.Question a{
+    text-decoration: none;
+    color:navy;
+}
+.container-practice{
+    background-color: gray;
+}
+
+
+
+
+/* media queries */
+@media (max-width: 768px) {
+    .heading1 {
+        font-size: 1.5rem !important; /* Adjust the font size as needed */
+    }
+
+    .number {
+        font-size: 2.5rem !important; /* Adjust the font size as needed */
+    }
+
+    .text1 {
+        font-size: 1.5rem !important; /* Adjust the font size as needed */
+    }
+
+    #header {
+        text-align: center;
+    }
+   
+}
+@media (max-width: 770px){
+    #dui{
+        text-align: center;
+    }
+  
+    .lastcontainer{
+        text-align: center;
+    }
+}
+@media (max-width:770px) and (min-width:461px) {
+    #charge{
+        font-size: 1.6rem !important;
+    }
+    #charged{
+        font-size: 1.2rem !important;
+    }
+    #free{
+        font-size: 1.5rem !important;
+    }
+    #click{
+        font-size: 1.2rem !important ;
+    }
+    #paste{
+        width: 100%;
+       
+        
+    }
+     #dui{
+        text-align: center;
+
+    }
+    #button{
+        margin-right: 25% !important;
+    }
+    .menu{
+        text-align: center !important;
+    }
+}
+body{
+    text-align: center !important;
+}
+/* #row{
+    text-align: start !important;
+} */
+
+@media (max-width: 483px)
+{ .confidential{
+    width: 70%;
+}
+
+}
+@media (max-width: 450px){.heading1 {
+    font-size: 0.8rem !important; /* Adjust the font size as needed */
+}
+
+.number {
+    font-size: 1.8rem !important; /* Adjust the font size as needed */
+}
+
+.text1 {
+    font-size: 0.8rem !important; /* Adjust the font size as needed */
+}
+
+}
+@media (min-width: 768px) and (max-width:1000px){ 
+    .heading1 {
+        font-size: 1rem !important; /* Adjust the font size as needed */
+    }
+
+    .number {
+        font-size: 2rem !important; /* Adjust the font size as needed */
+    }
+
+    .text1 {
+        font-size: 1rem !important; /* Adjust the font size as needed */
+    }
+
+
+}
+
+@media (max-width:766px) and (min-width:704px){
+    
+}
+@media (min-width:321px) and (max-width:480){
+    .botton{
+        font-size: 10px;
+    }
+   
+
+   
+    
+}
+
+@media (min-width:481px) and (max-width:768px){
+    /* .attach{
+        font-size: 8px !important;
+        margin-left: unset !important; 
+        
+    } */
+    .follow{
+        font-size: 1rem !important;
+    }
+    /* .fb{
+        width: 10px !important;
+    } */
+    .confidential{
+        width: 50%;
+    }
+
+
+}
+@media (min-width:769px) and (max-width:1024px){
+    /* .attach{
+        font-size: 8px !important;
+    } */
+    .confidential{
+        width: 70%;
+    }
+       
+   
+
+}
+@media (min-width:1025px) and (max-width:1200px){
+
+
+}  
+
+
+
+.attach {
+    background-color: #b60707;
+    color: white;
+    width: fit-content;
+    min-width: 50px !important; /* Adjust this value as needed */
+    padding: 5px 5px; /* Adjust padding as needed */
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Add any additional styles for responsiveness here */
+@media (max-width: 768px) {
+    .attach {
+        min-width: 150px; /* Adjust this value for smaller screens */
+    }
+}
